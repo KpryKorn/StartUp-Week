@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>ECOdyssée - Agence de voyage durable et éthique</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="./assets/images/logo-valise-white.png" alt="" />
+          </div>
+          <div class="nav__links">
+            <ul>
+              <li><a href="#">Concept</a></li>
+              <li><a href="#">Carnet de voyage</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Partenaires</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="cta">Réservation</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="booking__section">
+      <div class="container">
+        <div class="split">
+          <div>
+            <h1>Découvrir la France, <span>autrement</span></h1>
+            <p class="sous-titre">
+              Voyagez grâce à notre agence : tout compris, tout organisé pour
+              vous permettre de découvrir la France comme jamais auparavant.
+            </p>
+            <div class="booking__flex">
+              <a href="#" class="cta">En savoir plus</a>
+              <p><span>+400</span> clients satisfaits</p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="fancy-brs"
+              src="./assets/images/guide-local.jpeg"
+              alt="guide guide-local"
+            />
+          </div>
+        </div>
+        <form class="booking__formulaire">
+          <div class="booking__card">
+            <label for="destination"
+              ><img src="./assets/images/map-pin-line.svg" alt=""
+            /></label>
+            <input type="text" name="destination" placeholder="Destination" />
+          </div>
+          <div class="booking__card">
+            <label for="date"
+              ><img src="./assets/images/calendar-line.svg" alt=""
+            /></label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="booking__card">
+            <label for="logement"
+              ><img src="./assets/images/flight-takeoff-line.svg" alt=""
+            /></label>
+            <input type="text" name="logement" placeholder="Type de logement" />
+          </div>
+          <a href="resultat.html" class="cta form-btn"
+            ><img src="./assets/images/search-line.svg" alt="" /> Rechercher</a
+          >
+        </form>
+        <div class="booking__text">
+          <h2>Les avantages d'ECOdyssée</h2>
+          <p>Nous offrons un panel de destinations restreint, mais élitiste.</p>
+        </div>
+      </div>
+    </main>
+
+    <section
+      data-aos="fade-up"
+      data-aos-delay="200"
+      data-aos-easing="ease"
+      id="avantages"
+    >
+      <div class="container">
+        <div class="split">
+          <div class="avantages__card">
+            <div class="avantages__ligne">
+              <img src="./assets/images/transparence.svg" alt="" />
+              <p class="avantages__titre">Transparence</p>
+            </div>
+            <p class="avantages__sous-titres">
+              Nous sommes transparents et mettons en avant votre impact carbone
+              tout le long de la réservation, et du voyage.
+            </p>
+          </div>
+          <div class="avantages__card">
+            <div class="avantages__ligne">
+              <img src="./assets/images/expertise.svg" alt="" />
+              <p class="avantages__titre">Expertise</p>
+            </div>
+            <p class="avantages__sous-titres">
+              Nous sommes transparents et mettons en avant votre impact carbone
+              tout le long de la réservation, et du voyage.
+            </p>
+          </div>
+          <div class="avantages__card">
+            <div class="avantages__ligne">
+              <img src="./assets/images/accompagnement.svg" alt="" />
+              <p class="avantages__titre">Accompagnement</p>
+            </div>
+            <p class="avantages__sous-titres">
+              Nous sommes transparents et mettons en avant votre impact carbone
+              tout le long de la réservation, et du voyage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destinations">
+      <div class="container">
+        <h3>Nos odyssées les plus prisées</h3>
+        <p class="destinations__sous-titre">
+          Découvrez la France à travers ces voyages authentiques grâce à nos
+          partenaires locaux, qui partagent notre engagement pour un tourisme
+          plus responsable.
+        </p>
+        <ul class="gallery">
+          <li class="gallery__card">
+            <img
+              src="./assets/images/languedoc.jpeg"
+              class="gallery-img"
+              alt=""
+            />
+            <div class="voyage-info">
+              <div>
+                <p class="voyage-titre voyage-titre-2">Découvrez la France</p>
+                <p class="voyage-lieu">Languedoc Roussillon</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+            <div class="card-map-pin">
+              <img src="./assets/images/map-pin-fill.svg" alt="" />
+              <p>France</p>
+            </div>
+          </li>
+          <li class="gallery__card">
+            <img src="./assets/images/glénan.jpeg" class="gallery-img" alt="" />
+            <div class="voyage-info">
+              <div>
+                <p class="voyage-titre voyage-titre-2">Nos beaux paysages</p>
+                <p class="voyage-lieu">Archipel des Glénan</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+            <div class="card-map-pin">
+              <img src="./assets/images/map-pin-fill.svg" alt="" />
+              <p>France</p>
+            </div>
+          </li>
+          <li class="gallery__card">
+            <img
+              src="./assets/images/cathares.jpeg"
+              class="gallery-img"
+              alt=""
+            />
+            <div class="voyage-info">
+              <div>
+                <p class="voyage-titre voyage-titre-2">
+                  Apprenez notre culture
+                </p>
+                <p class="voyage-lieu">Châteaux Cathares</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+            <div class="card-map-pin">
+              <img src="./assets/images/map-pin-fill.svg" alt="" />
+              <p>France</p>
+            </div>
+          </li>
+          <li class="gallery__card">
+            <img src="./assets/images/verdon.jpeg" class="gallery-img" alt="" />
+            <div class="voyage-info">
+              <div>
+                <p class="voyage-titre voyage-titre-2">
+                  Rêvez le temps d'un séjour
+                </p>
+                <p class="voyage-lieu">Gorges du Verdon</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+            <div class="card-map-pin">
+              <img src="./assets/images/map-pin-fill.svg" alt="" />
+              <p>France</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="avis-clients">
+      <div class="container">
+        <h3 class="text-center">Nos voyageurs parlent de nous</h3>
+        <div class="split">
+          <div class="text-center">
+            <p>Trustpilot</p>
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-half-fill.svg" alt="" />
+          </div>
+          <div class="text-center">
+            <p>Google</p>
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-half-fill.svg" alt="" />
+          </div>
+          <div class="text-center">
+            <p>Kayak</p>
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-s-fill.svg" alt="" />
+            <img src="./assets/images/star-half-fill.svg" alt="" />
+          </div>
+        </div>
+        <div class="split pt-3">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-easing="ease"
+            class="avis-clients__card"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vel,
+              cupiditate sequi temporibus tempore nisi expedita quos molestiae
+              aperiam maiores magnam aliquam numquam reiciendis, dignissimos,
+              consequuntur eos ab nostrum ipsa.
+            </p>
+            <div class="card-bottom">
+              <img src="./assets/images/profile-pic1.jpeg" alt="" />
+              <p class="card__sous-titre">Aurelion Sol</p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-easing="ease-"
+            class="avis-clients__card"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              optio nemo voluptates, earum, natus consequatur aliquid iusto,
+              eius similique facilis temporibus qui placeat et animi velit
+              eligendi. Dolores maxime ratione quod deleniti commodi blanditiis
+              error, quo tempore quam fuga?
+            </p>
+            <div class="card-bottom">
+              <img src="./assets/images/profile-pic2.jpeg" alt="" />
+              <p class="card__sous-titre">Cabochard</p>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="1500"
+            data-aos-easing="ease"
+            class="avis-clients__card"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse,
+              aperiam. Ut ab modi exercitationem sit ex architecto animi magni,
+              corporis incidunt iusto eius soluta quae quod esse assumenda sunt
+              sapiente quisquam suscipit deleniti dolor perferendis placeat.
+              Consectetur animi quod, ad rem, magnam enim vitae dolore sequi
+              saepe, velit adipisci cum!
+            </p>
+            <div class="card-bottom">
+              <img src="./assets/images/profile-pic3.jpeg" alt="" />
+              <p class="card__sous-titre">Sakor Ros</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rappel-cta">
+      <div class="container flex-column">
+        <h3>Envie d'évasion ?</h3>
+        <p>
+          Faites partie des 10 premiers voyageurs du mois de mars pour profiter
+          d'une remise de 20% avec le coupon MARS20.
+        </p>
+        <a href="#" class="cta">Réserver votre voyage</a>
+      </div>
+    </section>
+
+    <article class="section__FAQ">
+      <div class="container">
+        <h3 class="text-center">Questions fréquentes</h3>
+        <details open>
+          <summary>Comment puis-je demander une facture ?</summary>
+          <p>
+            Veuillez consulter votre e-mail de confirmation ou vous rendre sur
+            la page de confirmation de la réservation puis cliquer sur le bouton
+            « Demander une facture ». Remplissez le formulaire et envoyez votre
+            demande.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            On m'a débité un montant incorrect. Que dois-je faire ?
+          </summary>
+          <p>
+            Si Ecodyssee.fr vous a débité un montant incorrect, rendez-vous sur
+            notre centre d'aide. Vous devrez probablement nous transmettre une
+            copie de votre relevé bancaire affichant le débit incorrect. Pensez
+            à indiquer le numéro de votre réservation et son code confidentiel.
+            Si l'établissement vous a facturé un montant incorrect, contactez-le
+            directement pour qu'il vous aide à résoudre ce problème.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Où puis-je consulter les conditions de paiement de ma réservation ?
+          </summary>
+          <p>
+            Ecodyssee.fr débitera votre carte du montant total au moment de la
+            réservation. Si vous souhaitez en savoir plus sur votre paiement,
+            consultez votre e-mail de confirmation.
+          </p>
+        </details>
+        <details>
+          <summary>Puis-je annuler ma réservation ?</summary>
+          <p>
+            Si votre réservation est non remboursable, vous ne pouvez pas
+            l'annuler. Si votre réservation bénéficie de l'annulation gratuite
+            ou si elle est partiellement remboursable, vous devrez payer les
+            frais d'annulation indiqués dans votre e-mail de confirmation ou sur
+            votre compte, sur la page de confirmation que vous trouverez dans la
+            section « Réservations ».
+          </p>
+        </details>
+        <details>
+          <summary>Où puis-je trouver mes conditions d'annulation ?</summary>
+          <p>
+            Les conditions d'annulation sont indiquées dans votre e-mail de
+            confirmation.
+          </p>
+        </details>
+      </div>
+    </article>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

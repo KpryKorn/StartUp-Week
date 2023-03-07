@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>ECOdyssée - Agence de voyage durable et éthique</title>
+  </head>
+  <body data-aos="zoom-in-up" data-aos-delay="1000" data-aos-easing="ease">
+    <header class="bg-light header-2">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="./assets/images/logo-valise-notext.png" alt="" />
+          </div>
+          <div class="nav__links">
+            <ul>
+              <li><a href="#">Concept</a></li>
+              <li><a href="#">Carnet de voyage</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Partenaires</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="cta">Réservation</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="filtres-top">
+      <div class="container">
+        <form action="" class="flex">
+          <div class="filtres-card">
+            <label for="transports"
+              ><img src="./assets/images/car-line.svg" alt=""
+            /></label>
+            <input type="text" name="transports" placeholder="Co-voiturage" />
+          </div>
+          <div class="filtres-card">
+            <label for="regime"
+              ><img src="./assets/images/restaurant-line.svg" alt=""
+            /></label>
+            <input type="text" name="regime" placeholder="Tout régime" />
+          </div>
+          <div class="filtres-card">
+            <label for="activites"
+              ><img src="./assets/images/run-line.svg" alt=""
+            /></label>
+            <input
+              type="text"
+              name="activites"
+              placeholder="Sportives + Culturelles"
+            />
+          </div>
+        </form>
+        <form action="" class="flex pt-1">
+          <div class="filtres-card">
+            <label for="nombre"
+              ><img src="./assets/images/parent-line.svg" alt=""
+            /></label>
+            <input type="text" name="nombre" placeholder="2 personnes" />
+          </div>
+          <div class="filtres-card">
+            <label for="budget"
+              ><img src="./assets/images/money-euro-circle-line.svg" alt=""
+            /></label>
+            <input type="text" name="budget" placeholder="Tout budget" />
+          </div>
+          <div class="filtres-card">
+            <label for="handicap"
+              ><img src="./assets/images/calendar-line (1).svg" alt=""
+            /></label>
+            <input type="text" name="handicap" placeholder="13/03/2023" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="resultat-voyages">
+      <div class="container">
+        <h3>Explorez la France</h3>
+        <p class="resultat-sous-titre">Depuis Tours</p>
+        <div class="split">
+          <div class="gallery__card">
+            <img
+              src="./assets/images/languedoc.jpeg"
+              class="gallery-img"
+              alt=""
+            />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Découvrez la France</p>
+                <p class="voyage-lieu">Languedoc Roussillon</p>
+              </div>
+              <div class="flex">
+                <p class="prix">dès <span>190€</span></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/images/glénan.jpeg" class="gallery-img" alt="" />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Nos beaux paysages</p>
+                <p class="voyage-lieu">Archipel des Glénan</p>
+              </div>
+              <div class="flex">
+                <p class="prix">dès <span>250€</span></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultat-voyages">
+      <div class="container">
+        <h3>Partez à l'aventure</h3>
+        <p class="resultat-sous-titre">
+          Choisissez parmis un large choix d'activités
+        </p>
+        <div class="split">
+          <div class="gallery__card">
+            <img
+              src="./assets/images/bretons.jpeg"
+              class="gallery-img"
+              alt=""
+            />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Activités culturelles</p>
+                <p class="voyage-lieu">Bretagne</p>
+              </div>
+              <div class="flex">
+                <p class="prix">dès <span>210€</span></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/images/trek.jpeg" class="gallery-img" alt="" />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Activités sportives</p>
+                <p class="voyage-lieu">Trek dans les Pyrénées</p>
+              </div>
+              <div class="flex">
+                <p class="prix">dès <span>222€</span></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultat-voyages">
+      <div class="container">
+        <h3>Transports doux et responsables</h3>
+        <p class="resultat-sous-titre">Un large choix de transports</p>
+        <div class="split">
+          <div class="gallery__card">
+            <img src="./assets/images/sncf.jpeg" class="gallery-img" alt="" />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Partez en train</p>
+                <p class="voyage-lieu">SNCF</p>
+              </div>
+              <div class="flex">
+                <p class="prix"></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img
+              src="./assets/images/covoiturage.jpeg"
+              class="gallery-img"
+              alt=""
+            />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Faites du covoiturage</p>
+                <p class="voyage-lieu">Blablacar</p>
+              </div>
+              <div class="flex">
+                <p class="prix"></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultat-voyages">
+      <div class="container">
+        <h3>Nos recommandations culinaires</h3>
+        <p class="resultat-sous-titre">Tout régime alimentaire compris</p>
+        <div class="split">
+          <div class="gallery__card">
+            <img src="./assets/images/plat-2.jpeg" class="gallery-img" alt="" />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Spécialités régionales</p>
+                <p class="voyage-lieu">Brest</p>
+              </div>
+              <div class="flex">
+                <p class="prix"></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img
+              src="./assets/images/vegan-food.jpeg"
+              class="gallery-img"
+              alt=""
+            />
+            <div class="voyage-info resultat-voyage-info">
+              <div>
+                <p class="voyage-titre">Alimentation vegan</p>
+                <p class="voyage-lieu">Lieux vegan</p>
+              </div>
+              <div class="flex">
+                <p class="prix"></p>
+                <img
+                  src="./assets/images/shopping-cart-line.svg"
+                  alt=""
+                  class="cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bar-impact-carbone">
+      <div class="container">
+        <p class="impact-carbone">
+          Impact carbone du voyage - résultats en temps réel
+        </p>
+        <div class="progressbar-wrapper">
+          <div class="progressbar bar-verte">10.08Kg de CO2</div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
